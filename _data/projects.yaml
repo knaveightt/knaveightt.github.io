@@ -10,12 +10,12 @@
   description: |
     Play Minecraft with an expanded set of pearls at your disposal, adding 14 new pearl types beyond the basic Ender Pearl!
 
-- title: MC Touchcore 
+- title: MC Toughcore 
   type: Minecraft Datapack
   visible: true
   image: assets/images/pic02.jpg
   indicator: active
-  version: 1.1.0-beta1 (Beta)
+  version: 2.0.0-beta1 (Beta)
   links:
     - type: github
       ref: https://github.com/knaveightt/mctoughcore
