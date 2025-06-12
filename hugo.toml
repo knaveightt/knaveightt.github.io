@@ -113,3 +113,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
