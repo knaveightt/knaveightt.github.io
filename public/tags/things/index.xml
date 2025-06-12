@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Things on </title>
+    <link>//localhost:1313/tags/things/</link>
+    <description>Recent content in Things on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Apr 2025 18:11:27 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/things/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Ideas to Describe</title>
+      <link>//localhost:1313/posts/another-sample-post/</link>
+      <pubDate>Wed, 16 Apr 2025 18:11:27 -0400</pubDate>
+      <guid>//localhost:1313/posts/another-sample-post/</guid>
+      <description>&lt;h2 id=&#34;subsection&#34;&gt;Subsection&lt;/h2&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

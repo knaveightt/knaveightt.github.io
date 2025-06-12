@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jun 2025 09:59:51 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mctoughcore</title>
+      <link>//localhost:1313/projects/mctoughcore/</link>
+      <pubDate>Thu, 12 Jun 2025 09:59:51 -0400</pubDate>
+      <guid>//localhost:1313/projects/mctoughcore/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Town Tree</title>
+      <link>//localhost:1313/music/town-tree/</link>
+      <pubDate>Fri, 06 Jun 2025 08:52:56 -0400</pubDate>
+      <guid>//localhost:1313/music/town-tree/</guid>
+      <description>&lt;p&gt;This track was created to be used for an RPG-style town or town hall&#xA;music, with a calm fantasy-esque melody and steady tempo.&lt;/p&gt;&#xA;&lt;p&gt;Featuring mostly bassoon, a fantasy melody is accompanied by a&#xA;driving, yet soft, set of folk percussion.&lt;/p&gt;&#xA;&lt;p&gt;Hope you enjoy!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Overworld Wilderness</title>
+      <link>//localhost:1313/music/overworld-wilderness/</link>
+      <pubDate>Fri, 06 Jun 2025 08:51:27 -0400</pubDate>
+      <guid>//localhost:1313/music/overworld-wilderness/</guid>
+      <description>&lt;p&gt;Overworld Wilderness is a track used as overworld music for the XBox&#xA;Live Arcade / Steam game Breath of Death VII. This track represents a&#xA;cliche in older console-like RPG games of the 16-bit era and earlier,&#xA;to provide the player an adventurous back tone to the exporation of&#xA;new areas in overworld and area maps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Sample Post</title>
+      <link>//localhost:1313/posts/my-sample-post/</link>
+      <pubDate>Wed, 16 Apr 2025 18:11:27 -0400</pubDate>
+      <guid>//localhost:1313/posts/my-sample-post/</guid>
+      <description>&lt;h2 id=&#34;subsection&#34;&gt;Subsection&lt;/h2&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Ideas to Describe</title>
+      <link>//localhost:1313/posts/another-sample-post/</link>
+      <pubDate>Wed, 16 Apr 2025 18:11:27 -0400</pubDate>
+      <guid>//localhost:1313/posts/another-sample-post/</guid>
+      <description>&lt;h2 id=&#34;subsection&#34;&gt;Subsection&lt;/h2&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

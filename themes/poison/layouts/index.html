@@ -1,0 +1,23 @@
+{{ define "main" -}}
+<div class="home-message">
+  <h1>welcome to totalknavery [ ! ]</h1>
+  <p>Observe this site, <strong>total knavery</strong>. It welcomes you. It is happy to share with you the mammoth randomness that can exist in a single webspace. You ask it, "TK, what kinds of things will my eyes be graced with upon residing in your humble, electronically-theoretical walls?" It answers in its electronically-theoretical voice: "Well kind sir and/or ma'am of the information age, you will be graced with everything and nothing. Mostly nothing. And with each observation of nothing, you may find that "<em>everything may hold hidden value…<em>"</p>
+      <p><strong>But seriously, what is it?</strong> Total Knavery is a webspace devoted to all my random muses. It is the creation of a dashingly handsome 90s dude who enjoys his title as a nerd and who would like to share some things with the passing internet traveler... with the realization that what there is to share cannot possibly be summed up in a single-topic web space. Here you will find random stories, games, music <em>(all custom compositions, there is no copyright-infringement here lads)</em>, photos, programming projects, commentaries, videos... whatever 'sizzles my bacon' at the current moment; all with the common element of amusement and randomness. For everything and anything that should be taken seriously, you will be duely noted.</p>
+      <p><strong>But wait, there's more!</strong> Let's not make this a one-way street, shall we? I enjoy receiving the spasmodic <em>(great word, btw)</em> greeting of the accidental passer-by. I'd love to hear if you enjoyed anything on the site, or if anything rustled your own jimmies. You know what, why not send over anything of <strong>yours</strong> that could possibly be imortalized in this capricious web-sanctuary? I'll give credit where credit is due (<em>I promise</em>) and who knows... maybe it will provide some gratuitous amusement for the next traveler. Such random amusement is always welcomed for vitality, but sometimes in need of <em>discovery...</em></p>
+</div>
+&nbsp;
+&nbsp;
+&nbsp;
+<div class="home-posts">
+  <h1>most recent posts [ ! ] <span class="taglink"><a href="/tags">View Tags</a></span></h1>
+  <div class="posts">
+    {{ $frontPageTypes := default (slice "posts") .Site.Params.front_page_content }}
+    {{ range (.Paginate (where .Site.RegularPages "Type" "in" $frontPageTypes)).Pages }}
+    <article class="home-post">
+      {{ partial "post/home-info.html" . }}
+    </article>
+    {{- end }}
+  </div>
+</div>
+{{ partial "pagination.html" . }}
+{{- end }}

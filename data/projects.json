@@ -1,0 +1,34 @@
+{
+	"projects": [
+		{
+			"title": "Knave's Elemental Pearls",
+			"type": "Minecraft Datapack",
+			"version": "0.8.2_pre",
+			"visible": true,
+			"active": true,
+			"image": null,
+			"links": [
+				{
+					"target": "github",
+					"ref": "https://github.com/knaveightt/knv-elemental"
+				}
+			],
+			"description": "Play Minecraft with an expanded set of pearls at your disposal, adding 14 new pearl types beyond the basic Ender Pearl!"
+		},
+		{
+			"title": "MC Toughcore",
+			"type": "Minecraft Datapack",
+			"version": "2.0.0-beta1",
+			"visible": true,
+			"active": true,
+			"image": null,
+			"links": [
+				{
+					"target": "github",
+					"ref": "https://github.com/knaveightt/mctoughcore"
+				}
+			],
+			"description": "Play a gamemode halfway between Survival and Hardcore, where you only have 5 lives and things get harder with each death."
+		}
+	]
+}

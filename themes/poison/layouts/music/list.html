@@ -1,0 +1,25 @@
+{{ define "main" -}}
+<div class="home-message">
+  <h1>{{ .Title }} [ ! ]</h1>
+  <p>Welcome to the TotalKnavery music page! Here I will showcase various music tracks and audio projects that I have worked (or am working) on. Have a look below and browse what tracks are currently featured. Check back often for frequent updates and newly featured music!</p>
+</div>
+&nbsp;
+&nbsp;
+&nbsp;
+<h1>Listen to this!</h1>
+<ul class="entries">
+    {{ range .Pages.GroupByParam "album" }}
+        <h3 style="text-align: center;">{{ .Key }}</h3>
+        {{ range .Pages }}
+            <li>
+                <span class="title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </span>
+                <span class="published">
+                    <time class="pull-right post-list">{{ .Date | time.Format ":date_long" }}</time>
+                </span>
+            </li>
+        {{ end }}
+    {{ end }}
+</ul>
+{{ end }}

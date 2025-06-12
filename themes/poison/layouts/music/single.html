@@ -1,0 +1,39 @@
+{{ define "main" -}}
+<div class="info">
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+&nbsp;
+  <table>
+	<tr>
+	  <th style="width:160px">Artist</th>
+	  <td>{{ .Params.artist }}</td>
+	</tr>
+	<tr>
+	  <th>Album</th>
+	  <td>{{ .Params.album }}</td>
+	</tr>
+	<tr>
+	  <th>Reference</th>
+	  <td><a href="{{ .Params.link }}">See More!</a></td>
+	</tr>
+  </table>
+  <h3>Listen</h3>
+  <figure style="text-align: center">
+	<figcaption>{{ .Params.title }} by {{ .Params.artist }}!</figcaption>
+	{{ with resources.Get .Params.file }}
+	<audio controls src="{{ .RelPermalink }}" type="audio/mp3"></audio>
+	{{ end }}
+  </figure>
+  <h3>Details</h3>
+  <div class="post">
+	<div class="music-details-artwork">
+	  <img src="{{ .Params.artwork }}" alt="Album Artwork" />
+	</div>
+	<div class="music-details-post">
+      {{ .Content }}
+	</div>
+  </div>
+    {{ partial "post/navigation.html" . }}
+</div>
+{{- end }}

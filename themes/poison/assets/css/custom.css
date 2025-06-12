@@ -1,0 +1,116 @@
+/* Empty css file that users can override in their own /assets/css/custom.css file */
+
+/* adjusting TotalKnavery Jack of Clubs image */
+.sidebar-about img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    border: none; 
+    border-radius: 0%;
+}
+
+/* Menu Adjustments */
+.heading a {
+	display: block;
+	width: 90%;
+    font-weight: 400;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 50%;
+	padding-left: 5px;
+    background: url(/images/img06menu.png) repeat-x left top;
+    text-decoration: none;
+}
+
+.heading a:hover {
+    background: url(/images/img06.jpg) repeat-x left top;
+}
+
+/* Font Family for the Website Title */
+.sidebar-about h1 {
+    font-family: arial, helvetica, sans-serif;
+}
+
+/* welcome message area */
+.home-message {
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 1px 24px 12px 24px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.home-message h1 {
+    color: #bf3b41
+}
+
+.home-message p {
+    color: #000;
+    font-style: normal;
+    font-size: 0.8em;
+    line-height: 28px;
+}
+
+.home-message strong {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Post Titles Listing on Home page */
+.taglink a {
+    background-color: #9d9d9d;
+    border-radius: 2.24px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: inline-block;
+    font-style: italic;
+    font-size: 0.4em;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-left: 7.84px;
+    padding-right: 7.84px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+
+.home-posts {
+    font-family: arial, helvetica, sans-serif;
+    padding-left: 24px;
+}
+
+.home-posts h1 {
+    font-style: normal;
+    color: #bf3b41
+}
+
+.home-post-title h1 {
+    font-family: "fira sans", sans-serif;
+    line-height: 14px;
+}
+
+.home-post-title a {
+    color: #dbe2e9;
+    font-size: 0.9em;
+    font-style: normal;
+}
+
+.home-posts .posts {
+    padding-left: 32px;
+}
+
+/* Music Page(s) Related */
+.music-details-artwork {
+	float: left;
+}
+
+.music-details-artwork img {
+	width: 200px;
+	height: 200px;
+	margin-right: 5px;
+}
+
+.music-details-post {
+	padding-top: 20px;
+}
