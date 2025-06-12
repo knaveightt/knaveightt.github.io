@@ -1,6 +1,6 @@
 +++
 date = '2025-06-06T08:51:27-04:00'
-draft = true
+draft = false
 title = 'Overworld Wilderness'
 artist = 'John Osinski'
 album = 'Breath of Death VII Soundtrack'
